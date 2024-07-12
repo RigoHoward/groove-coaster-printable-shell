@@ -24,7 +24,7 @@ Apart from the 3D printed parts you will need the following tools and materials 
   <li>Some female quick disconnects to easily connect/disconnect wires to the sticks and pushbuttons.</li>
   <li><a href="https://www.aliexpress.com/item/1005002669156285.html?spm=a2g0o.cart.0.0.46e638da38WDFw&mp=1">2x Small round white momentary pushbuttons.</a></li>
   <li><a href="https://www.aliexpress.com/item/1005003082350902.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Soft microswitches for the Left and Right pushbuttons.</a></li>    
-  <li><a href="https://www.aliexpress.com/item/1005003307588072.html?spm=a2g0o.cart.0.0.389a38daMdQKNv&mp=1">1x Neutrik like female USB C to Female USB A panel plug.</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005003307588072.html?spm=a2g0o.cart.0.0.389a38daMdQKNv&mp=1">1x Neutrik like female USB C to Female USB A panel connector.</a></li>
   <li>A few M5 bolts and nuts.</li>
   <li>A few M3 bolts.</li>  
   <li>Some M3 heat inserts.</li>
