@@ -13,15 +13,15 @@ Some glamour shots</p>
 <p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/Pictures/GC2.jpg" alt="Groove Coaster Controller" /></p>
 <p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/Pictures/GC3.jpg" alt="Groove Coaster Controller" /></p>
 
-<h3 align="left">Extra parts needed:</h3>
+<h3 align="left">Extra parts/tools needed:</h3>
 <p align="left">
 Apart from the 3d printed parts you will need the following tools and materials (i will add some Aliexpress links):
   <ul>
   <li>1x Arduino Leonardo or clone board.</li>
-  <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF clones are good)</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF like clones are good, there are 5 pin header and microswitch versions)</a></li>
   <li><a href="https://www.aliexpress.com/item/4000959586079.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Round 60mm white pushbuttons.</a></li>
   <li><a href="https://www.aliexpress.com/item/33057798976.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">1x 33x33mm square white pushbutton.</a></li>
-  <li>Some quick disconnects to easily connect/disconnect wires to the arcade stick and pushbuttons.</li>
+  <li>Some female quick disconnects to easily connect/disconnect wires to the sticks and pushbuttons.</li>
   <li><a href="https://www.aliexpress.com/item/1005002669156285.html?spm=a2g0o.cart.0.0.46e638da38WDFw&mp=1">2x Small round white momentary pushbuttons.</a></li>
   <li><a href="https://www.aliexpress.com/item/1005003082350902.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Soft microswitches for the Left and Right pushbuttons.</a></li>    
   <li><a href="https://www.aliexpress.com/item/1005003307588072.html?spm=a2g0o.cart.0.0.389a38daMdQKNv&mp=1">1x Neutrik like female USB C to Female USB A panel plug.</a></li>
@@ -29,12 +29,13 @@ Apart from the 3d printed parts you will need the following tools and materials 
   <li>A few M3 bolts.</li>  
   <li>Some M3 heat inserts.</li>
   <li>4x Rubber feet.</li>
-  <li>1m of WS2812 ledstrip.</li>
+  <li>1 meter of WS2812 ledstrip.</li>
   <li>Solder, Flux and Soldering Iron (and basic soldering skills)</li>
-  <li>Some shrink tube for cable joints</li>  
-  <li>24awg cable.</li>
+  <li>Some wire cutter and a crimping tool for the quick disconnects.</li>      
+  <li>Some shrink tube for cable joints.</li>  
+  <li>About 3 meters of 24awg cable.</li>
   <li>Male dupont cables.</li>  
-  <li>2x 5mm leds (color of your preference)</li>  
+  <li>2x 5mm leds (colors of your preference)</li>  
   </ul>
 </p>
 
@@ -44,13 +45,26 @@ Apart from the 3d printed parts you will need the following tools and materials 
   <li>1x Left, Center and Right frame.</li>
   <li>1x Bottom Left, Center and Right plate (you could use an accent color for this)</li>
   <li>2x Frame Spacer (you should use an accent color for this)</li>
-  <li>1x Left and Right Front plates.</li>  
-  <li>1x Logo Plate plates.</li> 
+  <li>1x Left, Right, Logo and Front plates.</li>  
   <li>1x each file on INSERTS folder (you should use an accent color for this)</li>
-  <li>2x Joy Tube, Joy Button and Stick Spacer parts.</li>
-  <li>2x Joy Base.</li>
+  <li>2x Joy Base, Joy Tube, Joy Button and Stick Spacer parts.</li>
   </ul>
 </p>
+
+<h3 align="left">Printing settings:</h3>
+<p align="left">I used the following parameters on my slicer profile:
+ <ul>
+   <li>Layer Height 0.2 (i use a 0.4mm nozzle)</li>
+   <li>3 or 4 walls/perimeters.</li>
+   <li>15-20% infill is enough.</li>
+   <li>Enabled supports for Joy Tube and Joy Button parts.</li>
+   <li>You really should use a brim or mouse ear brim for the Frame Parts (beacuase they are big and take a long time to print)</li>
+ </ul>  
+</p>
+
+<h3 align="left">Printing orientation:</h3>
+<p align="left">Please check the <a href="https://github.com/RigoHoward/groove-coaster-printable-shell/tree/main/Print_Orientation">Print_Orientarion</a> folder for pictured details.</p>
+
 
 <h3 align="left">Assembly:</h3>
 <p align="left">
@@ -79,21 +93,23 @@ Apart from the 3d printed parts you will need the following tools and materials 
     <li>Solder pins 0 and 1 to Left and Right buttons.</li>
     <li>Solder pins A0, A1 and 13 to the Minus, Home and Plus buttons.</li>
     <li>Solder pins 2, 3 and 12 to the Left, Right and Plus led buttons.</li>
-    <li>Solder a daisy chained VCC wire to the 5v point on each piece of the ledstrip.</li>
-    <li>Solder pins A2 and A3 to the Left and Right ledstrip piece.</li>
+    <li>Solder a daisy chained VCC wire to the VIN point on each piece of the ledstrip.</li>
+    <li>Solder pins A2 and A3 to the DIN point on the Left and Right ledstrip piece.</li>
   </ul>
 </p>
 
-<h3 align="left">Flashing Code:</h3>
+<h3 align="left">Flashing the Code:</h3>
 <p align="left">
-Follow the instructions for the awesome <a href="https://github.com/CrazyRedMachine/LUFAHybridFightstick?tab=readme-ov-file#building-instructions">LUFAHybridFightstick</a> repository made by <b>CrazyRedMachine</b> until the fifth step and then flash the code i leave here (which its actually his code with a different pinout and ledstrip animation effect only).
+Follow the building instructions for the awesome <a href="https://github.com/CrazyRedMachine/LUFAHybridFightstick?tab=readme-ov-file#building-instructions">LUFAHybridFightstick</a> repository made by <b>CrazyRedMachine</b> until the fifth step and then flash the code i leave <a href="https://github.com/RigoHoward/groove-coaster-printable-shell/tree/main/Software/GC_RH">HERE</a> (which its actually his code with a different pinout and a rainbow animation effect for the ledstrip only)
 </p>
 
 <h3 align="left">Current Pinout:</h3>
 <p align="left">
-Here it is the pinout i use for each stick, button and leds.
+Here it is the pinout i used for each stick, button, led and ledstrip.
 </p>
-<code>/* PINOUT (follows Nintendo naming (X=up, B=down)) */
+
+```
+/* PINOUT (follows Nintendo naming (X=up, B=down)) */
 #define PIN_UP    4
 #define PIN_DOWN  5
 #define PIN_LEFT  6
@@ -112,7 +128,7 @@ Here it is the pinout i use for each stick, button and leds.
 #define PIN_PLUS_LED 12
 #define DATA_PIN1 A2         //ledstrip Left
 #define DATA_PIN2 A3         //ledstrip Right
-</code>
+```
 
 <h3 align="left">What about a nice cup of coffee for me?:</h3>
 <p><a href="https://www.buymeacoffee.com/rigohoward"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rigohoward" /></a></p><br><br>
