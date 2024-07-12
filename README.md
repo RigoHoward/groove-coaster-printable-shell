@@ -58,7 +58,7 @@ Apart from the 3d printed parts you will need the following tools and materials 
    <li>3 or 4 walls/perimeters.</li>
    <li>15-20% infill is enough.</li>
    <li>Enabled normal supports on build plate only for Joy Tube and Joy Button parts.</li>
-   <li>You really should use a brim or mouse ear brim for the Frame Parts (beacuase they are big and take a long time to print)</li>
+   <li>You really should use a brim or mouse ear brim for the Frame Parts (because they are big and take a long time to print)</li>
  </ul>  
 </p>
 
