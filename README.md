@@ -15,7 +15,7 @@ Some glamour shots</p>
 
 <h3 align="left">Extra parts/tools needed:</h3>
 <p align="left">
-Apart from the 3D printed parts you will need the following tools and materials (i will add some Aliexpress links):
+Apart from the 3D printed parts you will need the following tools and materials (there some Aliexpress links as reference):
   <ul>
   <li>1x Arduino Leonardo or clone board.</li>
   <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF like clones are good, there are 5 pin header and microswitch versions)</a></li>
@@ -74,6 +74,8 @@ Apart from the 3D printed parts you will need the following tools and materials 
     <li>Attach the Insert parts to the Left, Center, Right Frame, the Logo Plate, Front Left and Right plates using some CA glue or whatever you use to glue your 3D printed parts.</li>      
     <li>Attach the USB-C panel to the back of the Center Frame and attach it using some M3 screws nuts and bolts. Also screw in the two small round white momentary pushbuttons and fix them with its own washer and nuts.</li>   
     <li>Using 4 M5 screws, washer and nuts put together the Left, Center and Right Frame parts using the 3D printed Frame Spacers between them to build the body of the controller.</li> 
+    <li>Put 4 heated M3 inserts on the tiny holes on the top of the Center Frame to screw in the Logo plate later.</li>     
+    <li>Using 4 M3 screws attach the Logo plate on top of the center Frame. Also with some M3 screws, washers and nuts fix the Front Left and Right Plate to the front of the Left and Right Frame parts.</li>      
     <li>Attach every JLF like joystick to the Stick Spacer part using two M5 screws on each Spacer.</li>    
     <li>Solder the corrresponding 3 wires (DIN, GND and VIN) to each piece of the ledstrip, then remove the back layer of the ledstrip to expose the sticky surface, and then pass the cables trough the hole in the inner wall of the Joy Base part and slide your ledstrip to glue it in place (leds should be facing outwards) repeat for the other Joy Base part.</li> 
     <li>Assemble the printed Joy Tube parts on the JLF like arcade sticks shafts using two M4 button head screws (do not overtight the screws)</li>  
@@ -82,6 +84,7 @@ Apart from the 3D printed parts you will need the following tools and materials 
     <li>Assemble the Joy Button and the Joy Tube parts together routing the cables and twisting the recessed part into its lock position and then add a M3 screw to avoid unlocking.</li>
     <li>Solder each wire to the microswitchs or th 5 pin header (depending on what version you got) on each JLF like joystick.</li>
     <li>Solder the Center frame back momentary pushbuttons and the PLUS button LED to the corresponding pins in the Arduino Board (check the pinout section below)</li>
+    <li>Put the heated M3 inserts on all the holes for the supporting Plate tabs for every Frame part at the bottom.</li>      
     <li>Assemble the Bottom Plates of each part of the frame using M3 screws and for each of the outer most sides use some rubber feet, confirm everything works before tightening up.</li>
   </ul>
 
