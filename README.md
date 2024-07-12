@@ -18,12 +18,12 @@ Some glamour shots</p>
 Apart from the 3d printed parts you will need the following tools and materials (i will add some Aliexpress links):
   <ul>
   <li>1x Arduino Leonardo or clone board.</li>
-  <li>2x Arcade sticks (Sanwa JLF clones are good)</li>
-  <li>2x Round 60mm white pushbuttons.</li>
-  <li>1x 33x33mm square white pushbutton.</li>
-  <li>Some QD's to easily connect/disconnect to the arcade stick and pushbuttons.</li>
-  <li>2x Small round white pushbuttons.</li>
-  <li>2x Soft push microswitches for the Left and Right pushbuttons.</li>    
+  <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF clones are good)</a></li>
+  <li><a href="https://www.aliexpress.com/item/4000959586079.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Round 60mm white pushbuttons.</a></li>
+  <li><a href="https://www.aliexpress.com/item/33057798976.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">1x 33x33mm square white pushbutton.</a></li>
+  <li>Some quick disconnects to easily connect/disconnect wires to the arcade stick and pushbuttons.</li>
+  <li><a href="https://www.aliexpress.com/item/1005002669156285.html?spm=a2g0o.cart.0.0.46e638da38WDFw&mp=1">2x Small round white momentary pushbuttons.</a></li>
+  <li><a href="https://www.aliexpress.com/item/1005003082350902.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Soft microswitches for the Left and Right pushbuttons.</a></li>    
   <li>1x Neutrik like female USB C to Female USB A panel plug.</li>
   <li>A few M5 bolts and nuts.</li>
   <li>A few M3 bolts.</li>  
@@ -61,7 +61,7 @@ Apart from the 3d printed parts you will need the following tools and materials 
     <li>Attach every JLF like koystick to the Stick Spacer part using 2 M5 screws.</li>    
     <li>Solder the corrresponding 3 wires (DIN, GND and VCC) to each piece of the led strip, then remove the back paper to expose the sticky surface, and pass the cables trough the hole in the inner wall of the Joy Base part and repeat of the othe Joy Base part.</li> 
     <li>Assemble the printed joy_tube on the JLF like arcade sticks using 2 M4 button head screws (do not overtight the screws)</li>  
-    <li>>Using 4 M5 screws, bolts and nuts put together the Joy Base with the Left and Righ Frame parts using the corresponding holes.</li>
+    <li>Using 4 M5 screws, bolts and nuts put together the Joy Base with the Left and Righ Frame parts using the corresponding holes.</li>
     <li>Assemble the 60mm buttons on the Joy Button part, and solder the wires to the microswitch and leds.</li>
     <li>Assemble the Joy Button and the Joy tube parts together twisting the recessed part and then add a M3 screw to fix in place.</li>
     <li>Solder each wire to the microswitch on each JLF like joystick.</li>
