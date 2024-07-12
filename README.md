@@ -3,8 +3,8 @@
 
 <h3 align="left">Overview:</h3>
 <p align="left">
-Here you will find the needed 3d print files and directions to build a nice looking Groove Coaster shell to build your own DIY-ASC controller!
-</p>
+Here you will find the needed 3d print files and directions to build a nice looking Groove Coaster shell to build your own DIY-ASC controller!</p>
+<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/render.png" alt="Groove Coaster Controller" /></p>
 
 <h3 align="left">Extra parts needed:</h3>
 <p align="left">
