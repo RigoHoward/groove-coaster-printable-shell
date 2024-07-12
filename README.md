@@ -57,7 +57,7 @@ Apart from the 3d printed parts you will need the following tools and materials 
    <li>Layer Height 0.2 (i use a 0.4mm nozzle)</li>
    <li>3 or 4 walls/perimeters.</li>
    <li>15-20% infill is enough.</li>
-   <li>Enabled supports for Joy Tube and Joy Button parts.</li>
+   <li>Enabled normal supports on build plate only for Joy Tube and Joy Button parts.</li>
    <li>You really should use a brim or mouse ear brim for the Frame Parts (beacuase they are big and take a long time to print)</li>
  </ul>  
 </p>
@@ -129,6 +129,16 @@ Here it is the pinout i used for each stick, button, led and ledstrip.
 #define DATA_PIN1 A2         //ledstrip Left
 #define DATA_PIN2 A3         //ledstrip Right
 ```
+
+<h3 align="left">Thanks to:</h3>
+<p align="left">All the work done here was possible with the help of these awesome fellows:
+<ul>
+  <li><a href="https://github.com/CrazyRedMachine">CrazyRedMachine</a>: for the LufaHybridStick code and constant help on coding.</li>
+  <li><a href="https://github.com/paatchii">Patchii</a>: for the initial STL files i used as reference to work on my remixed parts.</li>
+  <li>Thomas (from C&S discord): for his modular 3D cases for rythm controllers inspiration.</li>
+  <li>All the Cons & Stuff discord community for being so cool and nice.</li>
+</ul>
+</p>
 
 <h3 align="left">What about a nice cup of coffee for me?:</h3>
 <p><a href="https://www.buymeacoffee.com/rigohoward"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rigohoward" /></a></p><br><br>
