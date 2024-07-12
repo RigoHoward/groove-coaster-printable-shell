@@ -8,10 +8,10 @@ Here you will find the needed 3d print files and directions to build a nice look
 
 <h3 align="left">Finished Controller Sample:</h3>
 <p align="left">
-Glamour shots</p>
-<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/GC1.png" alt="Groove Coaster Controller" /></p>
-<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/GC2.png" alt="Groove Coaster Controller" /></p>
-<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/GC3.png" alt="Groove Coaster Controller" /></p>
+Some glamour shots</p>
+<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/Pictures/GC1.jpg" alt="Groove Coaster Controller" /></p>
+<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/Pictures/GC2.jpg" alt="Groove Coaster Controller" /></p>
+<p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/Pictures/GC3.jpg" alt="Groove Coaster Controller" /></p>
 
 <h3 align="left">Extra parts needed:</h3>
 <p align="left">
