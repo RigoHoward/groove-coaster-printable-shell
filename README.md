@@ -67,7 +67,7 @@ Apart from the 3d printed parts you will need the following tools and materials 
 <h3 align="left">Soldering:</h3>
 <p align="left">
   <ul>
-    <li>Solder a daisy chained GND wire to all leds, joysticks, buttons and led strip.</li>
+    <li>Solder a daisy chained GND wire to all leds, joysticks, buttons and ledstrips.</li>
     <li>Solder pins 4, 5, 6, 7, 8, 9, 10 and 11 to the left and right joysticks.</li>
     <li>Solder pins 0 and 1 to Left and Right buttons.</li>
     <li>Solder pins A0, A1 and 13 to the Minus, Home and Plus buttons.</li>
