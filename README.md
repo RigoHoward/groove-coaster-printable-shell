@@ -1,9 +1,9 @@
 <h1 align="center">Groove-Coaster Printable-Shell by Rigo Howard</h1>
-<h3 align="center">A nice 3d printable frame/shell for a DIY Groove Coaster controller</h3>
+<h3 align="center">A nice 3D printable frame/shell for a DIY Groove Coaster controller</h3>
 
 <h3 align="left">Overview:</h3>
 <p align="left">
-Here you will find the needed 3d print files and directions to build a nice looking Groove Coaster shell to build your own DIY-ASC controller!</p>
+Here you will find the needed 3D print files and directions to build a nice looking Groove Coaster shell and get your own DIY-ASC controller!</p>
 <p align="center"><img align="center" src="https://github.com/RigoHoward/groove-coaster-printable-shell/blob/main/render.png" alt="Groove Coaster Controller" /></p>
 
 <h3 align="left">Finished Controller Sample:</h3>
