@@ -15,7 +15,7 @@ Some glamour shots</p>
 
 <h3 align="left">Extra parts/tools needed:</h3>
 <p align="left">
-Apart from the 3D printed parts you will need the following tools and materials (there some Aliexpress links as reference):
+Apart from the 3D printed parts you will need the following tools and materials (there are some Aliexpress links as reference):
   <ul>
   <li>1x Arduino Leonardo or clone board.</li>
   <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF like clones are good, there are 5 pin header and microswitch versions)</a></li>
@@ -80,6 +80,7 @@ Apart from the 3D printed parts you will need the following tools and materials 
     <li>Solder the corrresponding 3 wires (DIN, GND and VIN) to each piece of the ledstrip, then remove the back layer of the ledstrip to expose the sticky surface, and then pass the cables trough the hole in the inner wall of the Joy Base part and slide your ledstrip to glue it in place (leds should be facing outwards) repeat for the other Joy Base part.</li> 
     <li>Assemble the printed Joy Tube parts on the JLF like arcade sticks shafts using two M4 button head screws (do not overtight the screws)</li>  
     <li>Using 4 M5 screws, washer and nuts put together the Joy Base over the Left and Right Frame parts using the corresponding guide holes.</li>
+    <li>Change the default microswitch on the 60mm buttons if you got the lighter ones before the next step.</li>      
     <li>Assemble the 60mm buttons on the Joy Button part, and solder the wires to the microswitch and leds.</li>
     <li>Assemble the Joy Button and the Joy Tube parts together routing the cables and twisting the recessed part into its lock position and then add a M3 screw to avoid unlocking.</li>
     <li>Solder each wire to the microswitchs or th 5 pin header (depending on what version you got) on each JLF like joystick.</li>
@@ -145,5 +146,5 @@ Here it is the pinout i used for each stick, button, led and ledstrip.
 </ul>
 </p>
 
-<h3 align="left">You think i do cool stuff?, what about a nice cup of coffee for me?!:</h3>
+<h3 align="left">Do you think i do cool stuff?, what about a nice cup of coffee for me?!:</h3>
 <p><a href="https://www.buymeacoffee.com/rigohoward"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rigohoward" /></a></p><br><br>
