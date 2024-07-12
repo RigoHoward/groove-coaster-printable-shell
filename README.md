@@ -15,7 +15,7 @@ Some glamour shots</p>
 
 <h3 align="left">Extra parts/tools needed:</h3>
 <p align="left">
-Apart from the 3d printed parts you will need the following tools and materials (i will add some Aliexpress links):
+Apart from the 3D printed parts you will need the following tools and materials (i will add some Aliexpress links):
   <ul>
   <li>1x Arduino Leonardo or clone board.</li>
   <li><a href="https://www.aliexpress.com/item/1005006560397920.html?spm=a2g0o.cart.0.0.67ac38daT6iGZ6&mp=1">2x Arcade sticks (Sanwa JLF like clones are good, there are 5 pin header and microswitch versions)</a></li>
@@ -30,6 +30,7 @@ Apart from the 3d printed parts you will need the following tools and materials 
   <li>Some M3 heat inserts.</li>
   <li>4x Rubber feet.</li>
   <li>1 meter of WS2812 ledstrip.</li>
+  <li>1x short USB micro to USB-A wire to connect Arduino Leonardo to the USB-C panel connector.</li>
   <li>Solder, Flux and Soldering Iron (and basic soldering skills)</li>
   <li>Some wire cutter and a crimping tool for the quick disconnects.</li>      
   <li>Some shrink tube for cable joints.</li>  
@@ -63,24 +64,25 @@ Apart from the 3d printed parts you will need the following tools and materials 
 </p>
 
 <h3 align="left">Printing orientation:</h3>
-<p align="left">Please check the <a href="https://github.com/RigoHoward/groove-coaster-printable-shell/tree/main/Print_Orientation">Print_Orientarion</a> folder for pictured details.</p>
-
+<p align="left">All the Plate parts having some logo/letters engraved on them, must face up its engraving marks.
+  For the rest, Please check the <a href="https://github.com/RigoHoward/groove-coaster-printable-shell/tree/main/Print_Orientation">Print_Orientarion</a> folder for pictured details.
+</p>
 
 <h3 align="left">Assembly:</h3>
 <p align="left">
     <ul>
-    <li>Attach the Insert parts to the Left, Center, Right Frame. to the Logo, Front Left and Right plates using some CA glue.</li>      
-    <li>Attach the USB c panel plug to the Center Frame and attach it using M3 screws nuts and bolts. Also screw in the 2 small round white buttons and fix them with the washer and its own nuts.</li>   
-    <li>Using 4 M5 screws, bolts and nuts put together the Left, Center and Right Frame parts using the 3d printed Frame Spacers between them to build the body of the controller.</li> 
-    <li>Attach every JLF like koystick to the Stick Spacer part using 2 M5 screws.</li>    
-    <li>Solder the corrresponding 3 wires (DIN, GND and VCC) to each piece of the led strip, then remove the back paper to expose the sticky surface, and pass the cables trough the hole in the inner wall of the Joy Base part and repeat of the othe Joy Base part.</li> 
-    <li>Assemble the printed joy_tube on the JLF like arcade sticks using 2 M4 button head screws (do not overtight the screws)</li>  
-    <li>Using 4 M5 screws, bolts and nuts put together the Joy Base with the Left and Righ Frame parts using the corresponding holes.</li>
+    <li>Attach the Insert parts to the Left, Center, Right Frame, the Logo Plate, Front Left and Right plates using some CA glue or whatever you use to glue your 3D printed parts.</li>      
+    <li>Attach the USB-C panel to the back of the Center Frame and attach it using some M3 screws nuts and bolts. Also screw in the two small round white momentary pushbuttons and fix them with its own washer and nuts.</li>   
+    <li>Using 4 M5 screws, washer and nuts put together the Left, Center and Right Frame parts using the 3D printed Frame Spacers between them to build the body of the controller.</li> 
+    <li>Attach every JLF like joystick to the Stick Spacer part using two M5 screws on each Spacer.</li>    
+    <li>Solder the corrresponding 3 wires (DIN, GND and VIN) to each piece of the ledstrip, then remove the back layer of the ledstrip to expose the sticky surface, and then pass the cables trough the hole in the inner wall of the Joy Base part and slide your ledstrip to glue it in place (leds should be facing outwards) repeat for the other Joy Base part.</li> 
+    <li>Assemble the printed Joy Tube parts on the JLF like arcade sticks shafts using two M4 button head screws (do not overtight the screws)</li>  
+    <li>Using 4 M5 screws, washer and nuts put together the Joy Base over the Left and Right Frame parts using the corresponding guide holes.</li>
     <li>Assemble the 60mm buttons on the Joy Button part, and solder the wires to the microswitch and leds.</li>
-    <li>Assemble the Joy Button and the Joy tube parts together twisting the recessed part and then add a M3 screw to fix in place.</li>
-    <li>Solder each wire to the microswitch on each JLF like joystick.</li>
-    <li>Solder every button and LED to the corresponding pins on the Arduino Board (check the pinout section below)</li>
-    <li>Assemble the Bottom Plates of each part of the frame using M3 screws and for each of the outer most sides use some rubber feet, connect and confirm everything works before tightening up.</li>
+    <li>Assemble the Joy Button and the Joy Tube parts together routing the cables and twisting the recessed part into its lock position and then add a M3 screw to avoid unlocking.</li>
+    <li>Solder each wire to the microswitchs or th 5 pin header (depending on what version you got) on each JLF like joystick.</li>
+    <li>Solder the Center frame back momentary pushbuttons and the PLUS button LED to the corresponding pins in the Arduino Board (check the pinout section below)</li>
+    <li>Assemble the Bottom Plates of each part of the frame using M3 screws and for each of the outer most sides use some rubber feet, confirm everything works before tightening up.</li>
   </ul>
 
 </p>
@@ -140,5 +142,5 @@ Here it is the pinout i used for each stick, button, led and ledstrip.
 </ul>
 </p>
 
-<h3 align="left">What about a nice cup of coffee for me?:</h3>
+<h3 align="left">You think i do cool stuff?, what about a nice cup of coffee for me?!:</h3>
 <p><a href="https://www.buymeacoffee.com/rigohoward"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="rigohoward" /></a></p><br><br>
